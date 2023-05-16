@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unit Converter</title>
+</head>
+<body>
+	<input type="text" id="id3" placeholder="To Milimeters"><br>
+	<input type="submit" value="Centimeters" onclick="myFunction()"><br>
+	<p id="answer"></p>	
+	<script>
+		function myFunction() {
+			var num3 = document.getElementById('id3').value;
+			var answer = Number(num3) / 10; 
+			var num3 = document.getElementById('answer').innerHTML = answer + "Centimeters";
+		}
+	</script>
+</body>
+</html>
